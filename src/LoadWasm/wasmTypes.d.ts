@@ -1,7 +1,7 @@
 declare global {
   export interface Window {
     Go: any;
-    myGolangFunction: (num1: number, num2: number)=>number
+    drawImages: (img1: string, img2: string) => string
   }
 }
 
